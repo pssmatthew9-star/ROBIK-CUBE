@@ -1,0 +1,15 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "A modern to-do list application with local storage functionality",
+  "main": "index.html",
+  "keywords": [
+    "todo",
+    "task",
+    "local-storage",
+    "app",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT"
+}
