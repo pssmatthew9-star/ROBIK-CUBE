@@ -1,0 +1,18 @@
+{
+  "name": "rubiks-cube-solver",
+  "version": "1.0.0",
+  "description": "A web-based Rubik's Cube solver with step-by-step instructions",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "rubiks-cube",
+    "solver",
+    "puzzle",
+    "cube",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT"
+}

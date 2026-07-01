@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎲 Rubik's Cube Solver</h1>
+        
+        <div class="main-content">
+            <div class="cube-input">
+                <h2>Enter Cube State</h2>
+                <p class="instructions">Enter the 54 colors of your Rubik's Cube (9 stickers per face)</p>
+                <p class="color-guide">Use: W=White, Y=Yellow, R=Red, O=Orange, G=Green, B=Blue</p>
+                
+                <div class="face-inputs">
+                    <div class="face">
+                        <h3>Front (F)</h3>
+                        <input type="text" id="front" placeholder="RRRRRRRRR" maxlength="9">
+                    </div>
+                    <div class="face">
+                        <h3>Back (K)</h3>
+                        <input type="text" id="back" placeholder="OOOOOOOOO" maxlength="9">
+                    </div>
+                    <div class="face">
+                        <h3>Left (L)</h3>
+                        <input type="text" id="left" placeholder="GGGGGGGGG" maxlength="9">
+                    </div>
+                    <div class="face">
+                        <h3>Right (R)</h3>
+                        <input type="text" id="right" placeholder="BBBBBBBBB" maxlength="9">
+                    </div>
+                    <div class="face">
+                        <h3>Up (U)</h3>
+                        <input type="text" id="up" placeholder="WWWWWWWWW" maxlength="9">
+                    </div>
+                    <div class="face">
+                        <h3>Down (D)</h3>
+                        <input type="text" id="down" placeholder="YYYYYYYYY" maxlength="9">
+                    </div>
+                </div>
+                
+                <button id="solveBtn" class="btn-primary">SOLVE CUBE</button>
+                <button id="resetBtn" class="btn-secondary">RESET</button>
+            </div>
+            
+            <div class="solution">
+                <h2>Solution Steps</h2>
+                <div id="steps" class="steps-container">
+                    <p class="placeholder">Enter cube colors and click SOLVE to see steps</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="solver.js"></script>
+</body>
+</html>
