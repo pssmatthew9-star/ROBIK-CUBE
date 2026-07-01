@@ -1,0 +1,15 @@
+{
+  "name": "joke-generator",
+  "version": "1.0.0",
+  "description": "A random joke generator using external APIs with favorite saving feature",
+  "main": "index.html",
+  "keywords": [
+    "joke",
+    "api",
+    "generator",
+    "random",
+    "humor"
+  ],
+  "author": "",
+  "license": "MIT"
+}
