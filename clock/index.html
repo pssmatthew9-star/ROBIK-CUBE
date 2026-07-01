@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock - Multiple Time Zones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 World Clock</h1>
+            <p class="subtitle">Current time in different time zones</p>
+        </div>
+        
+        <div class="controls">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Search city or timezone..."
+                class="search-input"
+            >
+            <select id="timezoneSelect" class="timezone-select">
+                <option value="">Add timezone...</option>
+            </select>
+            <button id="addBtn" class="btn-add">Add</button>
+        </div>
+        
+        <div class="clocks-grid" id="clocksGrid">
+            <!-- Clocks will be added here -->
+        </div>
+        
+        <div class="preset-section">
+            <h3>Quick Add:</h3>
+            <div class="preset-buttons">
+                <button class="preset-btn" data-tz="America/New_York">New York</button>
+                <button class="preset-btn" data-tz="Europe/London">London</button>
+                <button class="preset-btn" data-tz="Europe/Paris">Paris</button>
+                <button class="preset-btn" data-tz="Asia/Tokyo">Tokyo</button>
+                <button class="preset-btn" data-tz="Asia/Dubai">Dubai</button>
+                <button class="preset-btn" data-tz="Australia/Sydney">Sydney</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="clock.js"></script>
+</body>
+</html>

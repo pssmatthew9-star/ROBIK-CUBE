@@ -1,0 +1,16 @@
+{
+  "name": "world-clock",
+  "version": "1.0.0",
+  "description": "A beautiful digital clock that displays current time in different time zones",
+  "main": "index.html",
+  "keywords": [
+    "clock",
+    "timezone",
+    "world-clock",
+    "time",
+    "analog",
+    "digital"
+  ],
+  "author": "",
+  "license": "MIT"
+}
